@@ -2,10 +2,11 @@
     margin-top: 5rem;
     padding: 8rem;
     text-align: center;
-    background-color: #f395d7;
+    background-color: #f395ac;
     display: flex;
     justify-content: center;
     color: white;
+    margin-bottom: 0;
 }
 
 .slider span::after {

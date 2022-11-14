@@ -1,0 +1,30 @@
+.howitworks__container {
+    padding: 2rem;
+    color: #32890c;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo img {
+    height: 3rem;
+    vertical-align: middle;
+    /* width: 100%; */
+}
+
+.howitworks__container img {
+    height: 15rem;
+    box-sizing: border-box;
+    border: 1px black solid;
+    padding: 2rem;
+    border-radius: 20%;
+    background: #eeebeb;
+}
+
+.howitworks__container p {
+    font-weight: bold;
+}
+  
