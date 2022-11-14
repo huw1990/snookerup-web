@@ -1,0 +1,38 @@
+.slider {
+    margin-top: 5rem;
+    padding: 8rem;
+    text-align: center;
+    background-color: #f395d7;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.slider span::after {
+	content:"break building?";
+    animation: animate-goal 10s linear infinite;
+    padding-left: 0.5rem;
+}
+
+@keyframes animate-goal {
+    0% { 
+        content:" break building?";
+        animation-timing-function: steps(1, end);
+        color: #148f24;
+    }
+    25% { 
+        content:" long potting?";
+        animation-timing-function: steps(1, end);
+        color: #1737de;
+    }
+    50% { 
+        content:" safety play?";
+        animation-timing-function: steps(1, end);
+        color: #d32323;
+    }
+    75% { 
+        content:" positional play?";
+        animation-timing-function: steps(1, end);
+        color: #6c411b;
+    }
+  }
