@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 
 import Header from './components/Layout/Header';
-import Slider from './components/Layout/Slider';
+import Slider from './components/Home/Slider';
 
 function App() {
   return (
